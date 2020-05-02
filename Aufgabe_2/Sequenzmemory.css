@@ -1,0 +1,209 @@
+body{
+color: ivory;
+text-shadow: 0 0  20px rgb(255, 0, 170);
+font-family: Arial, Helvetica, sans-serif;
+background-image: url(ombre.jpg);
+background-size: cover;
+text-align: center;
+}
+
+.under{
+
+    color: black;
+    margin-top: -1%;
+    font-size: large;
+    font-style: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-shadow: 0 0  20px rgb(255, 0, 170);
+
+}
+
+.box input[type="text"]{
+
+    width: 18%;
+    padding: 15px;
+    padding-right: 60px;
+    background: rgba(248, 140, 176, 0.3);
+    border: 2px solid rgb(240, 16, 72);
+    box-shadow:0 0  20px rgb(255, 196, 0) ;
+    outline: none;
+    border-radius: 30px;
+    font-size: large;
+    color: black;
+}
+
+::-webkit-input-placeholder{
+color: rgba(255, 255, 255, 0.26);
+}
+
+.btn1{
+
+    border-radius: 20px;
+    size: large;
+    outline: none;
+    background: rgb(0, 0, 0);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    border-color: rgb(231, 59, 88);
+    border-width: medium;
+    padding: 10px;
+}
+.btn2{
+
+    border-radius: 20px;
+    size: large;
+    outline: none;
+    background: rgb(0, 0, 0);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    border-color: rgb(231, 59, 88);
+    border-width: medium;
+    padding: 10px;
+}
+.btn3{
+
+    border-radius: 20px;
+    size: large;
+    outline: none;
+    background: rgb(0, 0, 0);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    border-color: rgb(231, 59, 88);
+    border-width: medium;
+    padding: 10px;
+}
+.btn4{
+
+    border-radius: 20px;
+    size: large;
+    outline: none;
+    background: rgb(0, 0, 0);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    border-color: rgb(231, 59, 88);
+    border-width: medium;
+    padding: 10px;
+}
+.btn5{
+
+    border-radius: 20px;
+    size: large;
+    outline: none;
+    background: rgb(0, 0, 0);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    border-color: rgb(231, 59, 88);
+    border-width: medium;
+    padding: 10px;
+}
+.btn6{
+
+    border-radius: 20px;
+    size: large;
+    outline: none;
+    background: rgb(0, 0, 0);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    border-color: rgb(231, 59, 88);
+    border-width: medium;
+    padding: 10px;
+}
+.btn7{
+
+    border-radius: 20px;
+    size: large;
+    outline: none;
+    background: rgb(0, 0, 0);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    border-color: rgb(231, 59, 88);
+    border-width: medium;
+    padding: 10px;
+}
+.btn8{
+
+    border-radius: 20px;
+    size: large;
+    outline: none;
+    background: rgb(0, 0, 0);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    border-color: rgb(231, 59, 88);
+    border-width: medium;
+    padding: 10px;
+}
+.btn9{
+
+    border-radius: 20px;
+    size: large;
+    outline: none;
+    background: rgb(0, 0, 0);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    border-color: rgb(231, 59, 88);
+    border-width: medium;
+    padding: 10px;
+}
+.btn10{
+
+    border-radius: 20px;
+    size: large;
+    outline: none;
+    background: rgb(0, 0, 0);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    border-color: rgb(231, 59, 88);
+    border-width: medium;
+    padding: 10px;
+}
+
+.timing input[type="number"]{
+    width: 5%;
+    padding: 5px;
+    left: 50%;
+    margin-left: 90%;
+    background: rgba(248, 140, 176, 0.3);
+    border: 2px solid rgb(240, 16, 72);
+    box-shadow:0 0  20px rgb(255, 196, 0) ;
+    outline: none;
+    border-radius: 15px;
+    font-size: large;
+    color: black;
+}
+
+.sec{
+
+    color: black;
+    font-weight: bolder;
+    margin-left: 88%;
+    margin-top: -5%;
+}
+.btn11{
+    border-radius: 20px;
+    size: large;
+    outline: none;
+    background: rgb(0, 0, 0);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    border-color: rgb(231, 59, 88);
+    border-width: medium;
+    padding: 10px;
+
+}
+
+.btn12{
+
+
+
+    border-radius: 20px;
+    size: larger;
+    outline: none;
+    background: rgb(8, 88, 19);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    border-color: rgb(231, 59, 88);
+    border-width: medium;
+    margin-top: 23%;
+    padding: 20px;
+
+}
