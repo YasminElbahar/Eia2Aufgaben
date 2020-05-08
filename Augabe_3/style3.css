@@ -1,0 +1,177 @@
+
+body {
+    background-color: #000000;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #fbff00;
+   
+}
+
+h1{
+
+    text-align: center;
+}
+p{
+
+    text-align: center;
+}
+h3{
+
+    color: rgb(201, 63, 63);
+    font-size: medium;
+}
+button {
+    outline: none;
+    margin: 8px;
+    border: thin solid rgb(255, 238, 0);
+    border-radius: 10px;
+    color: #fdfdfd;
+    padding: 0.5%;
+    background-color: #000000;
+}
+.choice{
+
+    border:none;
+    outline: none;
+    border-radius: 15px;
+    width: 40%;
+    margin-right: center;
+    text-align: center;
+    float: center;
+    background: linear-gradient(145deg, #ffef0a, #ff6005 , #ff0505 );
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    font-weight: lighter;
+    color: rgb(0, 0, 0);
+    padding: 0.2%; }
+
+
+    .List{
+
+        border:none;
+        outline: none;
+        border-radius: 15px;
+        width: 99%;
+        margin-right: center;
+        float: center;
+        background: black;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: small;
+        font-weight: bolder;
+        color: rgb(255, 251, 0);
+        padding: 0.2%;
+    }
+    
+
+    
+.List input[type="text"]{
+
+    width: 10%;
+    padding: 0.5px;
+    padding-right: 0px;
+    background: rgba(255, 0, 0, 0);
+    border: 2px solid rgb(251, 255, 0);
+    outline: none;
+    text-align: center;
+    border-radius: 5px;
+    margin: 0.5%;
+    font-size: medium;
+    color: rgb(255, 100, 100);
+}
+    ::-webkit-input-placeholder{
+        color: rgba(0, 0, 0, 0.596);
+    
+        }
+       
+        .Place{
+    border:none;
+    outline: none;
+    border-radius: 15px;
+    width: 40%;
+    margin-right: center;
+    float: center;
+    text-align: center;
+    background: linear-gradient(145deg, #ffef0a, #ff6005 , #ff0505 );
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    font-weight: lighter;
+    color: rgb(0, 0, 0);
+    padding: 0.2%; }
+
+.day{
+
+    border:none;
+    outline: none;
+    border-radius: 15px;
+    width:40%;
+    text-align: center;
+    margin-right: center;
+    float: center;
+    background: linear-gradient(145deg, #ffef0a, #ff6005 , #ff0505 );
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    font-weight: lighter;
+    color: rgb(0, 0, 0);
+    padding: 0.2%; }
+
+#slider{
+
+margin: 11%;
+}
+.help{
+
+
+    border:none;
+    outline: none;
+    border-radius: 15px;
+    width:40%;
+    margin-right: center;
+    float: center;
+    text-align: center;
+    background: linear-gradient(145deg, #ffef0a, #ff6005 , #ff0505 );
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    font-weight: lighter;
+    color: rgb(0, 0, 0);
+    padding: 0.1%; 
+
+}
+    
+.Money{
+
+    border:none;
+    outline: none;
+    border-radius: 13px;
+    width:40%;
+    margin-right: center;
+    float: center;
+    text-align: center;
+    background: linear-gradient(145deg, #ffef0a, #ff6005 , #ff0505 );
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    font-weight: lighter;
+    color: rgb(0, 0, 0);
+    padding: 0.5%; 
+
+}
+#slider2{
+
+    margin: 8%;
+}
+#order {
+   
+    border:none;
+    outline: none;
+    border-radius: 13px;
+    width:25%;
+    margin-right: center;
+    float: center;
+    text-align: center;
+    background-color: rgb(255, 187, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    font-weight: lighter;
+    color: rgb(0, 0, 0);
+    padding: 10%; 
+    float: right;
+    margin-top: -52%;
+}

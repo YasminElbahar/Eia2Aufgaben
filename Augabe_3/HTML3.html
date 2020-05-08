@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Titillium+Web">
+    <script src="script3.js"></script>
+</head>
+<body>
+    
+    <h1>H A U S E H A L T S H I L F E</h1>
+
+    <p>We Are There For You !</p> <br>
+    
+        <h3> ⭕ Choose Your Task From Below</h3>
+    
+    <div class="choice">
+       <input type="radio" name="task" id="shopping" checked><label>Shopping</label>
+        <input type="radio" name="task" id="wash"><label>Personal Assistance</label>
+        <input type="radio" name="task" id="house"><label>Money Withdraw</label>
+      
+        <button type="button" id="confirm">Submit</button>
+    </div>
+<br> <br>
+
+    <h3> ⭕ Type Your Needed Items</h3>
+    <div class="List">
+    <input type="text" placeholder="Add Item" class="newtask"></input>
+    <div class="items"></div>
+    <div class="tasks">
+    <button class ="addButton">Add Grocery</button> 
+    <div class="Rahmen">
+    </div>
+
+</div> 
+<br> <br> <br> 
+    <h3> ⭕ Choose Your Shopping Place</h3>
+    <div class="Place">
+        <input type="radio" name="task" id="shopping" checked><label>Aldi</label>
+         <input type="radio" name="task" id="wash"><label>Edeka</label>
+         <input type="radio" name="task" id="house"><label>Penny</label>
+         <input type="radio" name="task" id="other"><label>Netto</label>
+         <input type="radio" name="task" id="other"><label>Kaufland</label>
+
+         <button type="button" id="confirm">Submit</button>
+     </div>
+
+     <h3> ⭕ Delivery Day</h3>
+     <div class="day">
+     <input type="checkbox" name="toDo"/><label>Saturday</label>
+     <input type="checkbox" name="toDo"/><label>Monday</label>
+     <input type="checkbox" name="toDo"/><label>Tuesday</label>
+     <input type="checkbox" name="toDo"/><label>Wednesday</label>
+     <input type="checkbox" name="toDo"/><label>Thursday</label>
+     <input type="checkbox" name="toDo"/><label>Friday</label>
+     <button id="householdDone" type="button">Submit</button>
+    </div> <br>
+    <span id="slider">
+        
+            9am
+            <input  type="range" min="9am" max="8pm" name="Time" id="hour" step=9am value="9am">
+            8pm
+        </span>
+
+
+        <h3> ⭕ Personal Assistance</h3>
+        <div class="help">
+            <input type="radio" name="task" id="shopping" checked><label>Watering Plants</label>
+             <input type="radio" name="task" id="wash"><label>Ironing Clothes</label>
+             <input type="radio" name="task" id="house"><label>Cleaning</label>
+             <input type="radio" name="task" id="other"><label>Cooking</label>
+             <input type="radio" name="task" id="other"><label>Laundry</label>
+             <button id="householdDone" type="button">Submit</button>
+            </div>
+
+            <h3>⭕ Withdraw / Deposit Money</h3>
+            <div class="Money">
+                <input type="checkbox" value="Geld einzahlen" name="cash"/><label> Withdraw</label>
+                <input type="checkbox" value="Geld abheben" name="cash"/><label>Deposit</label></div>
+                <button id="householdDone" type="button">Submit</button>
+                <span id="slider2">
+                    <span>
+                        5
+                        <input price="0" type="range" name="cash" min="5" max="500" id="money" step="5" value="5">
+                        500
+                    </span>
+                    
+                    <div id="order">
+                        <h1> Your Order And Payment Method</h1>
+                        <button id="householdDone" type="button">Confirm</button>
+                            
+                         <h3>Choose Your Payment</h3>
+                        <select id="selectPredefined">
+                                <option value="Paypal">Paypal</option>
+                                <option value="Visa">Visa</option>
+                                <option value="Expecto Patronum">Bill</option>
+                                <option value="Expelliarmus">Directly/Immediately</option>
+                                
+</div>
+                            
+</body>
+</html>
+</div>
