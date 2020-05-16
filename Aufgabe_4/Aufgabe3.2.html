@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Aufgabe3.2_style.css">
+    <script src="Aufgabe3.2_script.js"></script>
+
+</head>
+<body>
+<h1>Haushaltshilfe</h1>
+<p>You Order, We Bring It Right To Your Door Step!</p>
+
+<form id="myform">
+<div id="tasks">
+<h2 id="choosing">Give in your order</h2>
+
+<fieldset>
+<legend>Shopping</legend>
+<input type="text" name="shopping" list="food" placeholder="Click to view Groceries">
+<datalist id="food">
+<option value="Avocado" price="1.10">fruit</option>
+<option value="Apple" price="2.60">fruit</option>
+<option value="Apricot" price="2.10">fruit</option>
+<option value="Banana" price="0.99">fruit</option>
+<option value="Strawberries" price="1.95">Fruit</option>
+<option value="Eggplant" price="0.99">Veggie</option>
+<option value="Tomato" price="1.49">Veggie</option>
+<option value="Broccoli" price="1.29">Veggie</option>
+<option value="Milk" price="1.20">Dairy</option>
+<option value="Cheese" price="2.85">Dairy</option>
+<option value="Icecream" price="2.50">Dairy</option>
+<option value="Rice" price="2.36">Grains</option>
+<option value="Bread" price="1.79">Grains</option>
+<option value="Pasta" price="0.59">Grains</option>
+<option value="Lentils" price="1.19">Grains</option>
+<option value="Cocacola" price="1.10">Drinks</option>
+<option value="Cupcake" price="2.29">Sweets</option>
+<option value="Chocolate" price="0.99">Sweets</option>
+<option value="Jelly Beans" price="1.20">Sweets</option>
+<option value="Shampoo" price="3.50">Cosmetics</option>
+<option value="Hand Cream" price="1.89">Cosmetics</option>
+<option value="Shower Gel" price="0.95">Cosmestics</option>
+<option value="Soap" price="1.25">Cosmetics</option>
+</datalist>
+
+<select name="shopping" id="amount">
+<datalist id="amount">
+<option value="" price="0.5">0.5</option>
+<option value="" price="1">1</option>
+<option value="" price="1.5">1.5</option>
+<option value="" price="2">2</option>
+<option value="" price="2.5">2.5</option>
+<option value="" price="3">3</option>
+<option value="" price="3.5">3.5</option>
+<option value="" price="4">4</option>
+<option value="" price="4.5">4.5</option>
+<option value="" price="5">5</option>
+</select>
+
+<select name="shopping" id="unit">
+<option value="Gram" price="0.5">Gram</option>
+<option value="Kilogram" price="1.5">Kilogram</option>
+<option value="Milliliter" price="0.5">Milliliter</option>
+<option value="Liter" price="1.5">Liter</option>
+</select>
+
+<select name="shopping" id="supermarket">
+<option value="Aldi">Aldi</option>
+<option value="Rewe">Rewe</option>
+<option value="Market">Kaufland</option>
+<option value="Edeka">Edeka</option>
+<option value="Lidl">Lidl</option>
+<option value="Lidl">Metro</option>
+</select>
+</fieldset>
+
+<fieldset>
+<legend>Household Chores</legend>
+<input type="checkbox" name="household" id="wash" value="Do Laundry" price="10">
+<label for="mow">Do Laundry</label></br>
+<input type="checkbox" name="household" id="iron" value="Iron Clothes" price="15">
+<label for="cook">Iron Clothes</label></br>
+<input type="checkbox" name="household" id="water" value="Water the plants" price="2">
+<label for="feed">Water The Plants</label></br>
+<input type="checkbox" name="household" id="clean" value="clean the house" price="30">
+<label for="clean">Clean The House</label></br>
+</fieldset>
+
+<fieldset>
+<legend>Withdraw/Deposit</legend>
+<input type="radio" name="money" id="submit" value="Submit money" price="">
+<label for="submit">submit money</label>
+<input type="radio" name="money" id="get" value="Get money">
+<label for="get">Withdraw</label>
+<select name="money" id="Payment">
+<option value="PayPal">Paypal</option>
+<option value="Creditcard">Visa</option>
+<option value="bank collection">Klarna</option>
+<option value="SEPA">SEPA</option>
+<option value="DIRECTeBanking">Online Banking</option>
+</select>
+</br>
+<span id="slider">
+<span>
+    0€
+    <input type="range" name="money" id="mass" min="0" max="500" step="10">
+    500€
+</span>
+<progress for="mass" max="500" value=""></progress>
+</span>
+</fieldset>
+
+</div>
+</form> 
+
+<div id="right">
+    <h2 id="bill">Your Input/ Costs</h2>
+<div id="order">...</div>
+</div>
+
+<button id="publish">Submit Data</button>
+
+</body>
+</html>
