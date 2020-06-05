@@ -1,0 +1,15 @@
+{
+  "name": "aufgabe_3.2",
+  "version": "1.0.0",
+  "description": "test app",
+  "main": "Aufgabe3.2_script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "aufgabe"
+  ],
+  "author": "me",
+  "license": "ISC"
+}
