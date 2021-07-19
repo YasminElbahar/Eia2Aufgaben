@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+      "module": "none",
+      "noImplicitAny": true,
+      "removeComments": false,
+      "preserveConstEnums": true,
+    },
+    "files": [
+        "scripts/Point2D.ts",
+        "scripts/Field.ts",
+        "scripts/Formation.ts",
+        "scripts/Player.ts",
+        "scripts/Team.ts",
+        "scripts/Referee.ts",
+        "scripts/Ball.ts",
+        "scripts/Timer.ts",
+        "scripts/Game.ts",
+        "script.ts"
+    ]
+}
